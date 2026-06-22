@@ -1,88 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DriveElite | Venda de Veículos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+ 
 <body>
-
+ 
     <header>
         <nav>
             <div class="logo">Drive<span>Elite</span></div>
-
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#estoque">Estoque</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+            <button id="tema-btn" class="btn-tema">☀️</button>
         </nav>
     </header>
-
+ 
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Encontre o carro dos seus sonhos</h1>
             <a href="#estoque" class="btn">Ver Estoque</a>
         </div>
     </section>
-
+ 
     <section id="estoque" class="container">
-
-    <h2>Nosso Estoque</h2>
-
-    <select id="filtro-preco">
-        <option value="todos">Todos os Veículos</option>
-        <option value="popular">Até R$ 100.000</option>
-        <option value="medio">R$ 100.000 até R$ 300.000</option>
-        <option value="luxo">Acima de R$ 300.000</option>
-    </select>
-
-    <input 
-        type="text" 
-        id="search-input" 
-        placeholder="Digite o carro que procura..."
-    >
-
-    <div class="car-grid" id="car-grid"></div>
-
-</div>
-
-</section>
-
+        <h2>Nosso Estoque</h2>
+ 
+        <select id="filtro-preco">
+            <option value="todos">Todos os Veículos</option>
+            <option value="popular">Até R$ 100.000</option>
+            <option value="medio">R$ 100.000 até R$ 300.000</option>
+            <option value="luxo">Acima de R$ 300.000</option>
+        </select>
+ 
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Digite o carro que procura..."
+        >
+ 
+        <div class="car-grid" id="car-grid"></div>
+    </section>
+ 
     <section id="contato" class="contact-section">
         <h2>Fale Conosco</h2>
-
         <h3>Telefone: (61) 9818-7674</h3>
-
+ 
         <form id="contact-form">
             <input type="text" placeholder="Seu Nome" required>
-
             <input type="email" placeholder="Seu E-mail" required>
-
             <input type="tel" placeholder="Seu Telefone" required>
-
-            <textarea
-                placeholder="Tenho interesse no modelo..."
-                rows="5">
-            </textarea>
-            
-
-            <button type="submit" class="btn">
-                Enviar Interesse
-                
-            </button>
+            <textarea placeholder="Tenho interesse no modelo..." rows="5"></textarea>
+            <button type="submit" class="btn">Enviar Interesse</button>
         </form>
     </section>
-
+ 
     <footer>
         <p>&copy; 2026 DriveElite Motors. Todos os direitos reservados.</p>
     </footer>
-
+ 
     <script src="script.js"></script>
-
+ 
 </body>
-
+ 
 </html>
+ 
