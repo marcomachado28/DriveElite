@@ -23,3 +23,12 @@ Basta abrir o arquivo `index.html` no navegador — não precisa instalar nada.
 ## Autor
 
 Desenvolvido como projeto prático de front-end.
+
+## Como colocar o site no ar (Netlify)
+ 
+1. Acesse [netlify.com](https://netlify.com) e crie uma conta gratuita (sem cartão)
+2. Na dashboard, clique em **"Add new site" → "Deploy manually"**
+3. Arraste a pasta `driveelite/` na área indicada
+4. O site ficará online em segundos com um link público
+> Para atualizar o site depois, basta arrastar a pasta novamente.
+ 
